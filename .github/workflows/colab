@@ -1,0 +1,11 @@
+name: Welcome Collaborator
+
+on:
+  push:
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello to Collaborator
+        run: echo "Hello, ${{ github.actor }} 👋"

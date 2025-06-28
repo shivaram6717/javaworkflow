@@ -24,4 +24,4 @@ jobs:
       run: javac demo1.java
 
     - name: Run Java program
-      run: java AddNumbers
+      run: java demo1

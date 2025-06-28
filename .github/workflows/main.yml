@@ -27,7 +27,7 @@ jobs:
       run: javac add.java
       
     - name: Run Java program
-      run: java Hello.java
+      run: java Hello.
 
-    -name: Compile Java program
-      run: java add.java
+    - name: Compile Java program
+      run: javac add.java
